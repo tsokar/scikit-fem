@@ -183,7 +183,7 @@ class Mesh:
 
         Parameters
         ----------
-        boundaries
+        subdomains
             A dictionary of lambda functions with the names of the subdomains
             as keys.  The midpoint of the element should return ``True`` for
             the corresponding lambda function if the element belongs to the
